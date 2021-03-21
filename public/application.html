@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>EagleOrchard Golf Club</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="application.css">
+    <script src="application.js"></script>
+    <link rel="stylesheet" href="header_footer.css">
+</head>
+
+<body>
+    <div class = "container-fluid">
+            <div class="row">
+              <div class="col-sm-1">
+                  <img src="eagle.png" class="rounded float-left" alt="Eagle logo">
+              </div>
+              <div class="col-sm-4">
+                <h1>EAGLE ORCHARD</h1>
+              </div>
+            </div>
+          </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reservations.html">Reservations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="application.html">Career Opportunities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="account.html">Account</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <form id="form">
+        <div id="cform" class="container">
+            <div class="form-group">
+                <h2>Application</h2>
+                <label for="name">Name:</label>
+                <input type="text" class="form-control sm" id="name" placeholder="John Doe"><br>
+                <br>
+                <label for="date">Date:</label>
+                <input type="date" class="form-control sm" id="date" placeholder="03/17/2021"><br>
+                <br>
+                <label for="jobtype">Job Type:</label>
+                <select name="jobtype" id="jobtype">
+                <option value="selectoption">Select Option</option>
+                <option value="caddy">Caddy</option>
+                <option value="Manager">Manager</option>
+                <option value="groundscrew">Ground Crew</option>
+                <option value="proshop">Pro Shop</option>
+            </select><br>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" class="form-control sm" id="email" placeholder="jdoe@mail.com"><br>
+                <br>
+                <label for="phone">Phone<br>Number:</label>
+                <input type="tel" class="form-control sm" id="phone" placeholder="123-555-2000"><br>
+                <br>
+                <label for="resume">Resume and<br>Cover Letter:</label>
+                <input type="file" id="resume" name="resume"><br>
+                <br>
+                <label for="refname">Reference<br>Name:</label>
+                <input type="text" class="form-control sm" id="refname" placeholder="John Doe"><br>
+                <br>
+                <label for="refphone">Reference<br>Phone Number:</label>
+                <input type="tel" class="form-control sm" id="refphone" placeholder="123-555-2000"><br>
+                <br>
+                <label for="prevjob">Previous Job:</label>
+                <input type="text" class="form-control sm" id="prevjob"><br>
+                <br>
+                <label for="refname2">Reference<br>Name:</label>
+                <input type="text" class="form-control sm" id="refname2" placeholder="John Doe"><br>
+                <br>
+                <label for="refphone2">Reference<br>Phone Number:</label>
+                <input type="tel" class="form-control sm" id="refphone2" placeholder="123-555-2000"><br>
+                <br>
+                <label for="prevjob2">Previous Job:</label>
+                <input type="text" class="form-control sm" id="prevjob2"><br>
+                <br>
+                <label for="addcomm">Additonal Comments:</label><br>
+                <textarea id="addcomm" rows="9" cols="64"></textarea><br>
+            </div>
+        </div>
+
+        <div>
+            <p id="warningName" style="visibility:hidden">You have no name Entered.</p>
+            <p id="warningPhone" style="visibility:hidden">You have no phone number entered.</p>
+            <p id="warningEmail" style="visibility:hidden">You have no email entered.</p>
+            <p id="warningDate" style="visibility:hidden">You have no date entered.</p>
+            <p id="warningResume" style="visibility:hidden">You have no resume uploaded.</p>
+
+        </div>
+
+        <button type="submit" class="button">Submit Application</button>
+
+    </form>
+    <div>
+        <p id="warningName" style="visibility:hidden">You have no name Entered.</p>
+        <p id="warningPhone" style="visibility:hidden">You have no phone number entered.</p>
+        <p id="warningEmail" style="visibility:hidden">You have no email entered.</p>
+        <p id="warningDate" style="visibility:hidden">You have no date entered.</p>
+        <p id="warningResume" style="visibility:hidden">You have no resume uploaded.</p>
+
+        <div class="footer">
+            <img src="eagle.png" class="rounded float-left" alt="Eagle logo">
+            
+        </div>
+</body>

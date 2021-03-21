@@ -1,0 +1,32 @@
+#form{
+    border: 2px;
+    border-style: solid;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.button{
+    color: white;
+    background-color: lightblue;
+    font-size: 24px;
+    height: 80px;
+    width: 150px;
+    border-radius: 12px;
+    margin-left: 75%;
+    margin-bottom: 30px;
+}
+
+#cform{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.topnav{
+    border:2px;
+    border-style: solid;
+}
+
+.active{
+    color: gray;
+}
